@@ -1,0 +1,22 @@
+{
+  "name": "@gitmoji-changelog/github-api-client",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@gitmoji-changelog/core": "^2.1.0",
+    "apollo-boost": "^0.4.9",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "node-fetch": "^2.6.0",
+    "rc": "^1.2.8"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
